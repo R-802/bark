@@ -10,6 +10,7 @@ def text_to_semantic(
     history_prompt: Optional[Union[Dict, str]] = None,
     temp: float = 0.7,
     silent: bool = False,
+    use_kv_caching: bool = True,
 ):
     """Generate semantic array from text.
 
